@@ -19,13 +19,7 @@ import java.util.Set;
 @Table(name = "pets")
 public class Pet extends BaseEntity{
 
-    public String TESTOWYSTRING;
 
-    //
-    //asdasdassd
-    ///asdasdasdasd
-
-    //asdasdsadasdasdasdasd
 
     @Builder
     public Pet(Long id, String name, PetType petType, Owner owner, LocalDate birthDate, Set<Visit> visits) {
@@ -57,5 +51,13 @@ public class Pet extends BaseEntity{
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet")
     private Set<Visit> visits = new HashSet<>();
+
+    public String TESTOWYSTRING;
+
+    //
+    //asdasdassd
+    ///asdasdasdasd
+
+    //asdasdsadasdasdasdasd
 
 }

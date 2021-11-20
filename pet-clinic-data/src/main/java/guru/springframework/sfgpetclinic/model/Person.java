@@ -18,13 +18,7 @@ import javax.persistence.MappedSuperclass;
 @MappedSuperclass
 public class Person extends BaseEntity {
 
-    public String TESTOWYSTRING;
 
-    //
-    //asdasdassd
-    ///asdasdasdasd
-
-    //asdasdsadasdasdasdasd
 
     public Person(Long id, String firstName, String lastName) {
         super(id);
@@ -37,5 +31,14 @@ public class Person extends BaseEntity {
 
     @Column(name = "last_name")
     private String lastName;
+
+    public String TESTOWYSTRING;
+
+    //
+    //asdasdassd
+    ///asdasdasdasd
+
+    //asdasdsadasdasdasdasd
+
 
 }
