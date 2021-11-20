@@ -18,6 +18,14 @@ import javax.persistence.MappedSuperclass;
 @MappedSuperclass
 public class Person extends BaseEntity {
 
+    public String TESTOWYSTRING;
+
+    //
+    //asdasdassd
+    ///asdasdasdasd
+
+    //asdasdsadasdasdasdasd
+
     public Person(Long id, String firstName, String lastName) {
         super(id);
         this.firstName = firstName;

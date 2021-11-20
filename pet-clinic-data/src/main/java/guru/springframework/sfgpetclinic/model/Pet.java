@@ -19,6 +19,14 @@ import java.util.Set;
 @Table(name = "pets")
 public class Pet extends BaseEntity{
 
+    public String TESTOWYSTRING;
+
+    //
+    //asdasdassd
+    ///asdasdasdasd
+
+    //asdasdsadasdasdasdasd
+
     @Builder
     public Pet(Long id, String name, PetType petType, Owner owner, LocalDate birthDate, Set<Visit> visits) {
         super(id);
